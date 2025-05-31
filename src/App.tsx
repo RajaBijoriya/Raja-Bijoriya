@@ -9,7 +9,9 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { create } from 'domain';
 
-pdfjs.GlobalWorkerOptions.workerSrc = `https://cdn.jsdelivr.net/npm/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs`;
+pdfjs.GlobalWorkerOptions.workerSrc = new URL(
+  'pdfjs-dist/build/pdf.worker.min.mjs',import.meta.url,).toString();
+
 function App() {
   useEffect(() => {
     AOS.init();
