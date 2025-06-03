@@ -19,14 +19,22 @@ const Info = {
 };
 const ProjectInfo = [
   {
-    title: "Razorpay Clone",
-    decs: "This project is a responsive clone of the Razorpay website, meticulously crafted using HTML, CSS, and Tailwind CSS to replicate the original design with pixel-perfect accuracy. It features a modern, visually appealing layout with interactive elements, responsive design, and consistent typography, ensuring a seamless user experience across devices. Built with Tailwind's utility-first approach, the code is clean, maintainable, and efficient, showcasing the developer's expertise in front-end development and attention to detail in recreating real-world designs.",
-    image: "razorpay.png",
+    title: "Job Hook",
+    decs: "JobHook is a full-stack job application tracking platform built to streamline the job search process for users. Developed using React, TypeScript, Mantine UI, and Zustand for state management, it offers a smooth, responsive, and user-friendly interface. The backend is powered by Node.js, Express.js, and MongoDB, ensuring scalability and secure data handling.Users can create, update, delete, and filter job entries by position, company, location, job type, and application status. A dynamic dashboard provides real-time insights and statistics to help users visualize their job search progress. JobHook also includes robust search and filtering features for quick access to relevant job entries.Security is ensured through token-based authentication with protected routes, and a dark/light theme toggle enhances user experience. JobHook was built to solve the challenge of staying organized during the job hunt, offering an all-in-one solution to track opportunities, monitor progress, and stay focused on landing the right job.",
+    image: "jobhook.png",
+    live: true,
+    technologies: ["HTML", "CSS", "Tailwind CSS", "React", "Mantine", "Tabler"],
+    link: "https://job-hook-d2ei.vercel.app/",
+    github: "https://github.com/RajaBijoriya/Job-Hook.git",
+  },
+  {
+    title: "Forever",
+    decs: "Forever is a modern, full-stack e-commerce web application built using React, Tailwind CSS, Node.js, Express.js, and MongoDB. It offers a smooth and responsive user experience with features like product browsing, filtering, cart management, wishlists, secure authentication, and order placement. The frontend is designed with a clean, responsive UI using Tailwind, while the backend handles API routes, user sessions, and data management through a robust Express and MongoDB setup. Admin users can manage products and track orders. Forever demonstrates a complete MERN stack project focused on performance, usability, and scalable design.",
+    image: "forever.png",
     live: true,
     technologies: ["HTML", "CSS", "Tailwind CSS"],
     link: "resilient-wisp-0e155d.netlify.app",
-    github: "https://github.com/RajaBijoriya/Razorpay-Clone"
-    
+    github: "https://github.com/RajaBijoriya/E_Commerce_Application.git",
   },
   {
     title: "Study Synk",
@@ -35,48 +43,63 @@ const ProjectInfo = [
     live: true,
     technologies: ["HTML", "CSS"],
     link: "starlit-vacherin-be3b07.netlify.app",
-    github: "https://github.com/RajaBijoriya/StudySynk"
+    github: "https://github.com/RajaBijoriya/StudySynk",
+  },
+  {
+    title: "Pearl-Application Clone",
+    decs: "Pearl App Clone is a visually appealing and responsive front-end project inspired by the design of the original Pearl productivity app. Built using React, Tailwind CSS, Mantine UI, and Tabler Icons, the clone replicates the clean, modern interface and smooth user interactions of the original application.The goal of this project was to practice component-based architecture, responsive design, and advanced UI integration. Tailwind CSS was used for rapid layout styling, while Mantine UI and Tabler Icons enhanced the visual consistency and interactivity of the components. The layout adapts seamlessly across devices, with reusable UI components like sidebars, cards, buttons, and modals implemented for modular design.This clone focuses on building a polished user experience, showcasing front-end skills in replicating real-world applications. It serves as a portfolio-ready project that demonstrates proficiency in React ecosystem tools and an eye for detail in modern UI development.",
+    image: "pearl.png",
+    live: true,
+    technologies: [
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "API",
+    ],
+    link: "https://sprightly-naiad-6ee4f4.netlify.app/",
+    github: "https://github.com/RajaBijoriya/Pearl-Application.git",
+  },
 
+  {
+    title: "Logo Folio Clone",
+    decs: "LogoFolio Clone is a front-end web application that replicates the look and feel of the original LogoFolio — a modern, minimalist portfolio site for showcasing creative logo designs. Built using React, Tailwind CSS, Mantine UI, and Tabler Icons, the project highlights clean design aesthetics, responsive layout techniques, and component reusability.This clone was developed to sharpen skills in building design-focused interfaces and to demonstrate attention to detail in front-end implementation. The interface features a sleek grid layout, smooth hover animations, and a responsive navigation system that adapts flawlessly across devices. Tailwind CSS was used for rapid and consistent styling, while Mantine and Tabler provided elegant UI elements and icons.LogoFolio Clone serves as a strong portfolio project for front-end developers aiming to display visual work in a polished, professional manner. It emphasizes the ability to transform high-quality design references into fully functional, visually engaging web interfaces using modern React-based tools.",
+    image: "logofolio.png",
+    live: true,
+    technologies: [
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "API",
+    ],
+    link: "https://logo-folio-three.vercel.app/",
+    github: "https://github.com/RajaBijoriya/Logo-Folio.git",
   },
   {
     title: "coming  soon",
     decs: "Stay tuned for exciting projects currently in development! These upcoming creations will showcase advanced skills in web development, including responsive designs, seamless user interfaces, and innovative features. Each project is aimed at solving real-world problems while adhering to industry best practices. Keep an eye on this space as I continue to expand my portfolio with cutting-edge applications that reflect my passion for learning, creativity, and technology.",
     image: "comingsoon4.png",
     live: false,
-    technologies: ["HTML", "CSS", "Tailwind CSS", "React", "Node.js", "Express", "MongoDB", "API"],
+    technologies: [
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "API",
+    ],
     link: "coming soon",
-    github: "coming soon"
+    github: "coming soon",
   },
-
-  {
-    title: "coming  soon",
-    decs: "Stay tuned for exciting projects currently in development! These upcoming creations will showcase advanced skills in web development, including responsive designs, seamless user interfaces, and innovative features. Each project is aimed at solving real-world problems while adhering to industry best practices. Keep an eye on this space as I continue to expand my portfolio with cutting-edge applications that reflect my passion for learning, creativity, and technology.",
-    image: "comingsoon4.png",
-    live: false,
-    technologies: ["HTML", "CSS", "Tailwind CSS", "React", "Node.js", "Express", "MongoDB", "API"],
-    link: "coming soon",
-    github: "coming soon"
-  },
-  {
-    title: "coming  soon",
-    decs: "Stay tuned for exciting projects currently in development! These upcoming creations will showcase advanced skills in web development, including responsive designs, seamless user interfaces, and innovative features. Each project is aimed at solving real-world problems while adhering to industry best practices. Keep an eye on this space as I continue to expand my portfolio with cutting-edge applications that reflect my passion for learning, creativity, and technology.",
-    image: "comingsoon4.png",
-    live: false,
-    technologies: ["HTML", "CSS", "Tailwind CSS", "React", "Node.js", "Express", "MongoDB", "API"],
-    link: "coming soon",
-    github: "coming soon"
-  },
-  {
-    title: "coming  soon",
-    decs: "Stay tuned for exciting projects currently in development! These upcoming creations will showcase advanced skills in web development, including responsive designs, seamless user interfaces, and innovative features. Each project is aimed at solving real-world problems while adhering to industry best practices. Keep an eye on this space as I continue to expand my portfolio with cutting-edge applications that reflect my passion for learning, creativity, and technology.",
-    image: "comingsoon4.png",
-    live: false,
-    technologies: ["HTML", "CSS", "Tailwind CSS", "React", "Node.js", "Express", "MongoDB", "API"],
-    link: "coming soon",
-    github: "coming soon"
-  },
-  
-
 ];
 const SkillInfo = [
   {
