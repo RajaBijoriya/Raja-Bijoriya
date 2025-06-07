@@ -132,7 +132,7 @@ const socialLinks = [
     {link:"https://www.linkedin.com/in/raja-bijoriya",icon:IconBrandLinkedin},
     {link:"https://www.instagram.com/raja_bijoriya/",icon:IconBrandInstagram},
     {link:"https://www.youtube.com/@RajaBijoriya",icon:IconBrandYoutube},
-    {link:"https://www.leedcode.com/u/Raja_Bijoriya/",icon:IconBrandLeetcode}
+    {link:"https://leetcode.com/u/Raja_Bijoriya/",icon:IconBrandLeetcode}
 ];
 
 const ExperienceInfo = [
