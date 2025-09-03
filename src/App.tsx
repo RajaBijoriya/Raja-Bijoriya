@@ -10,7 +10,9 @@ import 'aos/dist/aos.css';
 import { create } from 'domain';
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
-  'pdfjs-dist/build/pdf.worker.min.mjs',import.meta.url,).toString();
+  'pdfjs-dist/build/pdf.worker.min.mjs',
+  import.meta.url,
+).toString();
 
 function App() {
   useEffect(() => {
@@ -28,11 +30,11 @@ function App() {
       '2xl': '1280px',
     },
   });
+
   return (
     <MantineProvider theme={theme}>
-      <HomePage/>
+      <HomePage />
     </MantineProvider>
-  
   );
 }
 

@@ -11,30 +11,36 @@ import Social from "./Social";
 import { useEffect, useState } from "react";
 import { Toaster } from "react-hot-toast";
 
-
-const HomePage=()=>{
+const HomePage = () => {
     const [loading, setLoading] = useState(true);
+    
     useEffect(() => {
-        setTimeout(() => {
-            setLoading(false);
-        }, 5000);
+        // Set loading to false after initial render
+        setLoading(false);
     }, []);
-    return <div className={`min-h-[100vh] ${loading?"flex":""} items-center overflow-hidden justify-center`}>
-        { loading !==true?<>
-        <Toaster/>
-        <Header/>
-        <About/>
-        <Projects/>
-        <Skills/>
-        <Experience/>
-        <Contact/>
-        <Footer/>
-        <Mail/>
-        <Social/>
-        </>:
-        <Loader/>}
-        
-        
-    </div>
+
+    if (loading) {
+        return (
+            <div className="min-h-[100vh] flex items-center justify-center">
+                <Loader />
+            </div>
+        );
+    }
+
+    return (
+        <div className="min-h-[100vh] overflow-hidden">
+            <Toaster />
+            <Header />
+            <About />
+            <Projects />
+            <Skills />
+            <Experience />
+            <Contact />
+            <Footer />
+            <Mail />
+            <Social />
+        </div>
+    );
 };
+
 export default HomePage;
