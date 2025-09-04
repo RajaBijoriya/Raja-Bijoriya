@@ -6,16 +6,14 @@ import { title } from "process";
 const Info = {
   name: "Raja Bijoriya",
   Stack: [
-    "Softeware Engineer",
+    "MERN + GenAI Developer",
+    "Software Developer",
     "Full Stack Web Developer",
     "Competitive Programmer",
-    "Open Source Contributer",
-    "Freelancer",
   ],
-  bio: `I'm a passionate software engineer specialized in crafting efficient and
-          scalable solutions, delivering top-notch web applications,
-          and providing freelance services that exceed client expectations.
-          Let's connect and create something amazing together!`,
+  bio: `💻 I’m a passionate MERN + GenAI Developer, Software Developer, Full Stack Web Developer, and Competitive Programmer.
+I specialize in crafting efficient and scalable solutions and building top-notch web applications that make an impact. 🚀
+Let’s connect and create something amazing together!`,
 };
 const ProjectInfo = [
   {
@@ -107,12 +105,12 @@ const SkillInfo = [
   },
   {
     title: "Languages",
-    skills: ["C", "C++", "Java", "JavaScript", "Python", "TypeScript"]
+    skills: ["C", "C++", "JavaScript", "Python", "TypeScript"]
   },
   {
     title: "Tools",
     skills: ["Git", "Github", "VS Code", "MongoDB Compass", "Postman",
-      "Spring Tool Suite"
+      "OpenAI", "GeminiAI"
     ]
   }
 
