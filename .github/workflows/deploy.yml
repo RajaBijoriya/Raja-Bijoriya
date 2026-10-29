@@ -28,6 +28,8 @@ jobs:
         run: npm ci
 
       - name: Build React application
+        env:
+          CI: "false"
         run: npm run build
 
       - name: Upload build artifact
